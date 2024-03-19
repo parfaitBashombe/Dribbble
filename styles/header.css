@@ -53,28 +53,46 @@
   font-size: 15px;
 }
 
-.design {
+.design,
+.course {
   position: relative;
-  background-color: coral;
 }
 
-.find-designer {
+.design:hover .find-designer,
+.course:hover .institution {
+  opacity: 1;
+}
+
+.find-designer,
+.institution {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  background-color: rgb(241, 241, 241);
   position: absolute;
-  bottom: -100px;
-  padding: 1%;
+  bottom: -120px;
+  padding: 7%;
   border-radius: 20px;
+  width: 240px;
+  opacity: 0;
+  transition: opacity 1s;
+  pointer-events: none;
+  border: 1px rgb(209, 209, 209) solid;
+  color: black;
 }
 
-.tip {
+.tuition {
+  margin-bottom: 5px;
+  border-bottom: 1px rgb(184, 181, 181) solid;
+}
+
+.tip,
+.live {
   height: 40px;
   font-weight: bolder;
 }
 
 .sub {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
 }
 
