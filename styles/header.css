@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(124, 124, 124);
+  background-color: red;
+  padding: 5px 10px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  flex: 1;
+}
+
+.left-section-1,
+.left-section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: blue;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: blueviolet;
+  flex: 1;
+}
+
+.right-section-1,
+.right-section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.design {
+  position: relative;
+}
+
+.find-designer {
+  position: absolute;
+  bottom: 0px;
+  background-color: yellow;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section-2 input {
+  flex: 1;
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+.right-section-2 div {
+  padding: 0 10px;
+}
+
+.right-section button {
+  border: none;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 28px;
+}
