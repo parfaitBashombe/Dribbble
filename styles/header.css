@@ -55,17 +55,27 @@
 
 .design {
   position: relative;
+  background-color: coral;
 }
 
 .find-designer {
-  position: absolute;
-  bottom: 0px;
-  background-color: yellow;
-}
-
-.list {
   display: flex;
   flex-direction: column;
+  background-color: yellow;
+  position: absolute;
+  bottom: -100px;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.tip {
+  height: 40px;
+  font-weight: bolder;
+}
+
+.sub {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .right-section-2 input {
