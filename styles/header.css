@@ -16,14 +16,22 @@ header div {
   background-color: yellow;
 }
 
+.title {
+  padding: 25px 0;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
 .interactive {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   column-gap: 10px;
+  background-color: aqua;
 }
 
 .interactive img {
-  width: 2%;
+  width: 20px;
   border: 1px rgb(139, 138, 138) solid;
   border-radius: 14px;
   padding: 3px;
@@ -39,4 +47,39 @@ header div {
 
 .interactive button:hover {
   opacity: 0.7;
+}
+
+.info {
+  background-color: violet;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 5px;
+}
+
+.user-info {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-photo img {
+  width: 40px;
+  border-radius: 30px;
+}
+
+.profile-photo {
+  width: 10px;
+  background-color: blue;
+}
+
+.user-id {
+  flex: 9;
+  padding-left: 4px;
+}
+
+.situation {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
 }
