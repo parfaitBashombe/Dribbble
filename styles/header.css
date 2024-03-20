@@ -7,39 +7,36 @@ header {
   padding-top: 55px;
 }
 
+header div {
+  flex: 1;
+}
+
 .sticky-header-container {
-  display: flex;
-  flex-direction: column;
-  background-color: blue;
-}
-
-.title {
-  font-size: 22px;
-  background-color: violet;
-}
-
-.info {
-  display: flex;
-  flex-direction: row;
+  flex: 2;
   background-color: yellow;
 }
 
-.info-user,
-.situation {
+.interactive {
   display: flex;
-  flex-direction: row;
-  column-gap: 8px;
-  background-color: aqua;
+  align-items: center;
+  column-gap: 10px;
 }
 
-.user-id {
-  display: flex;
-  flex-direction: column;
-  background-color: orange;
+.interactive img {
+  width: 2%;
+  border: 1px rgb(139, 138, 138) solid;
+  border-radius: 14px;
+  padding: 3px;
 }
 
-.profile-photo img {
-  width: 50%;
-  border-radius: 35px;
-  background-color: lightgreen;
+.interactive button {
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(13, 12, 34);
+  color: white;
+  border-radius: 28px;
+}
+
+.interactive button:hover {
+  opacity: 0.7;
 }
