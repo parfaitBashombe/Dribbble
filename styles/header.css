@@ -3,30 +3,43 @@ header {
   flex-direction: row;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+  padding-top: 55px;
 }
 
 .sticky-header-container {
   display: flex;
   flex-direction: column;
+  background-color: blue;
 }
 
 .title {
   font-size: 22px;
+  background-color: violet;
 }
 
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  background-color: yellow;
 }
 
-.info-user {
+.info-user,
+.situation {
   display: flex;
   flex-direction: row;
+  column-gap: 8px;
+  background-color: aqua;
 }
 
 .user-id {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  background-color: orange;
+}
+
+.profile-photo img {
+  width: 50%;
+  border-radius: 35px;
+  background-color: lightgreen;
 }
