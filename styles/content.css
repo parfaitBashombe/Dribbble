@@ -7,9 +7,58 @@
   background-color: rgb(200, 200, 200);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 8px 7px;
 }
 
 .content-container img {
   width: 80%;
   height: 95%;
+}
+
+.review-content img {
+  width: 25%;
+}
+
+.review-content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.ads {
+  font-size: 700%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.samples {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.samples button {
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(13, 12, 34);
+  color: white;
+  border-radius: 28px;
+  white-space: nowrap;
+}
+
+.samples button:hover {
+  opacity: 0.7;
+}
+
+.samples img {
+  width: 45px;
+}
+
+.play {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 170px;
+  background-color: blueviolet;
 }
