@@ -3,7 +3,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: red;
   padding-top: 55px;
 }
 
@@ -13,7 +12,6 @@ header div {
 
 .sticky-header-container {
   flex: 2;
-  background-color: yellow;
 }
 
 span:hover {
@@ -31,7 +29,6 @@ span:hover {
   align-items: center;
   justify-content: flex-end;
   column-gap: 10px;
-  background-color: aqua;
 }
 
 .interactive img {
@@ -54,14 +51,12 @@ span:hover {
 }
 
 .info {
-  background-color: violet;
   display: flex;
   justify-content: space-between;
   padding: 3px 5px;
 }
 
 .user-info {
-  background-color: lightgreen;
   display: flex;
   flex-direction: row;
   font-size: 15px;
@@ -75,7 +70,6 @@ span:hover {
 
 .profile-photo {
   width: 10px;
-  background-color: blue;
 }
 
 .user-id {
@@ -84,7 +78,6 @@ span:hover {
 }
 
 .situation {
-  background-color: beige;
   display: flex;
   padding-top: 8px;
   font-size: 12px;
