@@ -16,6 +16,10 @@ header div {
   background-color: yellow;
 }
 
+span:hover {
+  text-decoration: underline;
+}
+
 .title {
   padding: 25px 0;
   font-weight: bolder;
@@ -60,6 +64,8 @@ header div {
   background-color: lightgreen;
   display: flex;
   flex-direction: row;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .profile-photo img {
@@ -80,6 +86,12 @@ header div {
 .situation {
   background-color: beige;
   display: flex;
-  justify-content: space-between;
   padding-top: 8px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.follow {
+  color: rgb(165, 165, 165);
+  flex: 3;
 }
