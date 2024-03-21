@@ -5,4 +5,11 @@
 
 .content-container {
   background-color: rgb(200, 200, 200);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-container img {
+  width: 80%;
+  height: 95%;
 }
