@@ -1,6 +1,6 @@
 .content-container {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 1fr;
   padding: 8px 7px;
   column-gap: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",

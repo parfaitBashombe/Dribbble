@@ -1,17 +1,21 @@
 .premium-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 30px;
+  padding: 9px;
 }
 
 .premium {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 50%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.item {
+.item,
+.item-promotion {
   position: relative;
 }
 
@@ -23,7 +27,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: rgb(185, 185, 185);
-  width: 120%;
+  width: 320px;
   font-weight: 600;
 }
 
@@ -31,7 +35,7 @@
   position: absolute;
   bottom: 9px;
   left: 8px;
-  width: 120%;
+  width: 320px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,11 +60,12 @@
   padding: 8px;
 }
 
-.item img {
-  width: 130%;
+.item img,
+.item-promotion img {
+  width: 335px;
   height: 300px;
   border-radius: 20px;
-  border: 1px rgb(179, 179, 179) solid;
+  border: 1px rgb(221, 220, 220) solid;
 }
 
 .chart button {
@@ -73,5 +78,29 @@
 }
 
 .chart button:hover {
-  opacity: 0.7;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.descript-promotion {
+  position: absolute;
+  left: 8px;
+  top: 70px;
+  color: rgb(243, 238, 238);
+  width: 320px;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 4px 6px 5px black;
+}
+
+.page-promotion {
+  position: absolute;
+  bottom: 20px;
+  left: 8px;
+  width: 320px;
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+  text-shadow: 4px 6px 5px black;
+  text-align: center;
 }
