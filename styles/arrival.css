@@ -1,23 +1,57 @@
 .premium {
   display: flex;
   flex-direction: column;
+  width: 250px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.descript,
-.page,
-.size {
+.item {
+  position: relative;
+}
+
+.descript {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 50px;
+  color: white;
+  width: 95%;
+  font-weight: 600;
+  background-color: aqua;
+}
+
+.page {
+  position: absolute;
+  bottom: 6px;
+  left: 8px;
+  column-gap: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.size div {
+.size-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.size {
   border: 1px black solid;
-  border: 5px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
 }
 
 .item img {
-  width: 300px;
+  width: 120%;
+  height: 300px;
+  border-radius: 20px;
 }
 
 .chart button {
