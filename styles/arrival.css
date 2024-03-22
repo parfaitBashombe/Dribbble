@@ -1,3 +1,8 @@
+.premium-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
 .premium {
   display: flex;
   flex-direction: column;
@@ -17,21 +22,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  column-gap: 50px;
-  color: white;
-  width: 95%;
+  color: rgb(185, 185, 185);
+  width: 120%;
   font-weight: 600;
-  background-color: aqua;
 }
 
 .page {
   position: absolute;
-  bottom: 6px;
+  bottom: 9px;
   left: 8px;
-  column-gap: 50px;
+  width: 120%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.size:hover {
+  background-color: black;
+  color: white;
 }
 
 .size-container {
@@ -49,9 +57,10 @@
 }
 
 .item img {
-  width: 120%;
+  width: 130%;
   height: 300px;
   border-radius: 20px;
+  border: 1px rgb(179, 179, 179) solid;
 }
 
 .chart button {
