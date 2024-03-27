@@ -1,7 +1,6 @@
 .premium-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 20px;
   column-gap: 30px;
   padding: 9px;
 }
@@ -139,4 +138,66 @@
 
 .pipedrive {
   width: 150px;
+}
+
+.new-arrival-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 35px;
+  padding: 15px 9px 0 9px;
+  font-weight: bolder;
+}
+
+.explore button {
+  border: none;
+  padding: 15px 45px;
+  background-color: rgb(13, 12, 34);
+  color: white;
+  border-radius: 28px;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.explore button:hover {
+  opacity: 0.8;
+}
+
+.arrival-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 15px 10px 1px 10px;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.arrival-container {
+  position: relative;
+}
+
+.arrival-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(214, 214, 214);
+}
+
+.shoe-edition {
+  color: rgb(184, 184, 184);
+  font-weight: bolder;
+}
+
+.shoe-style {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.shoe-price {
+  font-weight: 600;
+}
+
+.arrival-grid img {
+  width: 270px;
+  height: 250px;
+  border-radius: 20px;
 }
