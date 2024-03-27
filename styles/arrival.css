@@ -65,7 +65,7 @@
   width: 335px;
   height: 300px;
   border-radius: 20px;
-  border: 1px rgb(179, 179, 179) solid;
+  border: 1px rgb(223, 223, 223) solid;
 }
 
 .chart button {
@@ -103,4 +103,35 @@
   font-size: 45px;
   text-shadow: 4px 6px 5px black;
   text-align: center;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 12px 0 12px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 20px;
+}
+
+.companies {
+  text-align: center;
+}
+
+.logo-sponsor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spotify,
+.slack,
+.razorpay,
+.webflow,
+.zoom {
+  width: 50px;
+}
+
+.pipedrive {
+  width: 150px;
 }
