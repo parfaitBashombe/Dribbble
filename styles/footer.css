@@ -1,0 +1,33 @@
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding: 10px 9px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(209, 209, 209);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.blog-profile img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.blog-name {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.blog-description {
+  color: rgba(122, 121, 121, 0.6);
+}

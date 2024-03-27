@@ -140,7 +140,8 @@
   width: 150px;
 }
 
-.new-arrival-title {
+.new-arrival-title,
+.blog-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -150,7 +151,8 @@
 }
 
 .explore button,
-.design-making-description button {
+.design-making button,
+.blog-title button {
   border: none;
   padding: 15px 45px;
   background-color: rgb(13, 12, 34);
@@ -161,7 +163,8 @@
 }
 
 .explore button:hover,
-.design-making-description button:hover {
+.design-making button:hover,
+.blog-title button:hover {
   opacity: 0.8;
 }
 
@@ -256,20 +259,42 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 15px 9px;
+  column-gap: 20px;
 }
 
 .design-making-container img {
-  width: 550px;
-  height: 500px;
+  width: 700px;
+  height: 570px;
   border-radius: 20px;
 }
 
 .design-making-container {
   position: relative;
+  display: flex;
+  row-gap: 10px;
 }
 
 .design-making-description {
   position: absolute;
   bottom: 50px;
   left: 20px;
+}
+
+.design-making-description-2 {
+  position: absolute;
+  top: 50px;
+  right: -75px;
+}
+
+.design-experience {
+  font-size: 30px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.design-descript {
+  width: 500px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(124, 124, 124);
 }
