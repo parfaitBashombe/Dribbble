@@ -10,8 +10,6 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .item,
@@ -108,20 +106,27 @@
 .sponsor {
   display: flex;
   flex-direction: column;
-  padding: 20px 12px 0 12px;
-  background-color: rgb(173, 173, 173);
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: rgb(247, 247, 247);
   border-radius: 20px;
+  border: 1px rgb(219, 219, 219) solid;
 }
 
 .companies {
   text-align: center;
+  font-weight: 700;
 }
 
-.logo-sponsor {
+.logo-sponsor,
+.spons {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  column-gap: 5px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .spotify,
