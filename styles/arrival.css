@@ -18,13 +18,13 @@
 
 .descript {
   position: absolute;
-  left: 8px;
-  top: 10px;
+  left: 6%;
+  top: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: rgb(185, 185, 185);
-  width: 320px;
+  width: 185%;
   font-weight: 600;
 }
 
@@ -32,7 +32,7 @@
   position: absolute;
   bottom: 9px;
   left: 8px;
-  width: 320px;
+  width: 195%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,7 +141,8 @@
 }
 
 .new-arrival-title,
-.blog-title {
+.blog-title,
+.services-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -240,7 +241,7 @@
 }
 
 .img-payment img {
-  width: 70px;
+  width: 50%;
 }
 
 .delivery {

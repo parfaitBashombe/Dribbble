@@ -1,0 +1,151 @@
+/* start of desktop styles */
+
+@media screen and (max-width: 1280px) {
+  /* start of large tablet styles */
+  nav {
+    font-size: 8px;
+    color: rgb(124, 124, 124);
+    padding: 0 20px;
+  }
+
+  .search-bar {
+    height: 25px;
+  }
+
+  .right-section-container {
+    font-size: 12px;
+  }
+
+  .right-section button {
+    padding: 8px 13px;
+  }
+
+  .reviews {
+    padding: 20px 4px;
+  }
+
+  .img-review img {
+    width: 100%;
+  }
+
+  .ads {
+    font-size: 400%;
+  }
+
+  .samples button {
+    padding: 6px 10px;
+  }
+
+  .premium-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 9px;
+  }
+
+  .item img,
+  .item-promotion img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .arrival-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .arrival-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(214, 214, 214);
+  }
+
+  .shoe-style {
+    font-size: 20px;
+  }
+
+  .arrival-grid img {
+    width: 265px;
+    height: 250px;
+  }
+
+  .payment {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .payment-container {
+    width: 370px;
+  }
+
+  .design-making-container img {
+    width: 390px;
+    height: 570px;
+    border-radius: 20px;
+  }
+
+  .design-experience {
+    font-size: 20px;
+  }
+
+  .design-descript {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .design-making-description {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+
+  .design-making-description-2 {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+  }
+
+  .design-descript {
+    width: 320px;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 10px 9px;
+  }
+
+  .blog-container {
+    border-radius: 20px;
+    row-gap: 10px;
+    padding: 8px;
+  }
+
+  .blog-profile img {
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .blog-name {
+    font-size: 20px;
+  }
+
+  .blog-description {
+    width: 320px;
+  }
+
+  .explore button,
+  .design-making button,
+  .blog-title button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+}

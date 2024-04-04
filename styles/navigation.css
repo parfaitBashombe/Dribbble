@@ -15,15 +15,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  flex: 1;
-  padding-left: 3px;
-}
-
-.middle-section-container {
-  display: flex;
-  flex-direction: row;
-  column-gap: 3%;
+  column-gap: 8px;
   flex: 1;
 }
 
@@ -36,8 +28,7 @@ nav {
 }
 
 .nike {
-  width: 180px;
-  height: 70px;
+  width: 20%;
 }
 
 .right-section {
@@ -48,74 +39,13 @@ nav {
   flex: 1;
 }
 
-.right-section-1,
-.right-section-2 {
+.right-section-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex: 1;
   font-weight: 800;
   font-size: 15px;
-}
-
-.design,
-.course {
-  position: relative;
-}
-
-.design:hover .find-designer,
-.course:hover .institution {
-  opacity: 1;
-}
-
-.find-designer {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(241, 241, 241);
-  position: absolute;
-  bottom: -100px;
-  left: -10px;
-  padding: 7%;
-  border-radius: 20px;
-  width: 200px;
-  opacity: 0;
-  transition: opacity 1s;
-  pointer-events: none;
-  border: 1px rgb(209, 209, 209) solid;
-  color: black;
-}
-
-.institution {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(241, 241, 241);
-  position: absolute;
-  bottom: -135px;
-  left: -12px;
-  padding: 7%;
-  border-radius: 20px;
-  width: 240px;
-  opacity: 0;
-  transition: opacity 1s;
-  pointer-events: none;
-  border: 1px rgb(209, 209, 209) solid;
-  color: black;
-}
-
-.tuition {
-  padding-bottom: 3px;
-  margin-bottom: 5px;
-  border-bottom: 1px rgb(184, 181, 181) solid;
-}
-
-.tip,
-.live {
-  font-weight: bolder;
-}
-
-.sub {
-  font-size: 12px;
-  font-weight: normal;
 }
 
 .search {
@@ -144,7 +74,7 @@ nav {
   background-color: rgb(226, 224, 224);
 }
 
-.right-section-2 div {
+.right-section-container div {
   padding: 0 10px;
 }
 
