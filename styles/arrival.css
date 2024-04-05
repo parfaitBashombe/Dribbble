@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: rgb(185, 185, 185);
-  width: 185%;
+  width: 135%;
   font-weight: 600;
 }
 
@@ -32,7 +32,7 @@
   position: absolute;
   bottom: 9px;
   left: 8px;
-  width: 195%;
+  width: 135%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
