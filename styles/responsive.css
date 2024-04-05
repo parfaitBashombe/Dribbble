@@ -37,14 +37,14 @@
   }
 
   .premium-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     padding: 9px;
   }
 
   .item img,
   .item-promotion img {
-    width: 400px;
+    width: 365px;
     height: 300px;
   }
 
