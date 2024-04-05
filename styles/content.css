@@ -1,7 +1,7 @@
 .content-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding: 10px 7px;
+  padding: 15px 7px;
   column-gap: 20px;
   align-items: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -14,12 +14,12 @@
   padding: 35px 4px;
   display: flex;
   justify-content: space-between;
-  height: 88%;
+  height: 93%;
   flex-direction: column;
 }
 
 .img-review img {
-  width: 100%;
+  width: 10%;
   border-radius: 20px;
 }
 
