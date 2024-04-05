@@ -142,10 +142,18 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (min-width: 1200px) {
+  /* start of large computer */
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  /* start of computer */
+}
+
+@media (min-width: 728px) and (max-width: 1023px) {
   /* start of medium tablet styles */
 }
 
-@media screen and (max-width: 479px) {
+@media (min-width: 0px) and (max-width: 727px) {
   /* start of phone styles */
 }
