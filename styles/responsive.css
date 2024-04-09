@@ -80,7 +80,6 @@
   }
 
   .design-descript {
-    width: 500px;
     font-size: 15px;
   }
 
@@ -92,12 +91,8 @@
 
   .design-making-description-2 {
     position: absolute;
-    top: 20px;
-    right: 70px;
-  }
-
-  .design-descript {
-    width: 320px;
+    top: 50px;
+    right: -20px;
   }
 
   .blog-grid {
