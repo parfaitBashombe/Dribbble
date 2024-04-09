@@ -65,16 +65,8 @@
   }
 
   .arrival-grid img {
-    width: 265px;
+    width: 385px;
     height: 250px;
-  }
-
-  .payment {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .payment-container {
-    width: 370px;
   }
 
   .design-making-container img {

@@ -180,6 +180,7 @@
 
 .arrival-container {
   position: relative;
+  flex: 1;
 }
 
 .arrival-description {
@@ -203,8 +204,8 @@
   font-weight: 600;
 }
 
-.arrival-grid img {
-  width: 270px;
+.arrival-container img {
+  width: 385px;
   height: 250px;
   border-radius: 20px;
 }
@@ -223,12 +224,16 @@
   align-items: center;
   justify-content: center;
   row-gap: 7px;
-  width: 440px;
+  flex: 1;
   padding: 25px 10px;
   border-radius: 20px;
   background-color: rgba(199, 199, 199, 0.6);
   border-radius: 20px;
   border: 1px rgb(219, 219, 219) solid;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-weight: 600;
 }
 
 .img-payment {
@@ -255,6 +260,7 @@
   font-size: 16px;
   font-weight: 500;
   text-align: center;
+  max-width: 370px;
 }
 
 .design-making {
