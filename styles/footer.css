@@ -15,19 +15,21 @@
   row-gap: 10px;
   padding: 15px;
   font-weight: 600;
-}
-
-.blog-profile img {
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
+  flex: 1;
 }
 
 .blog-name {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
 .blog-description {
   color: rgba(122, 121, 121, 0.6);
+  max-width: 320px;
+}
+
+.blog-profile img {
+  max-width: 300px;
+  height: 200px;
+  border-radius: 20px;
 }

@@ -90,32 +90,6 @@
     right: -20px;
   }
 
-  .blog-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    padding: 10px 9px;
-  }
-
-  .blog-container {
-    border-radius: 20px;
-    row-gap: 10px;
-    padding: 8px;
-  }
-
-  .blog-profile img {
-    width: 320px;
-    height: 200px;
-    border-radius: 20px;
-  }
-
-  .blog-name {
-    font-size: 20px;
-  }
-
-  .blog-description {
-    width: 320px;
-  }
-
   .explore button,
   .design-making button,
   .blog-title button {
