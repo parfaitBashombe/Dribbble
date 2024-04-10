@@ -148,6 +148,15 @@
     padding: 9px;
   }
 
+  .descript {
+    font-size: 7px;
+  }
+
+  .page-promotion,
+  .descript-promotion {
+    font-size: 14px;
+  }
+
   .size-container {
     column-gap: 3px;
     align-items: center;

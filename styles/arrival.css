@@ -85,6 +85,9 @@
 
 .descript-promotion {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
   left: 8px;
   top: 70px;
   color: rgb(243, 238, 238);
@@ -95,15 +98,7 @@
 }
 
 .page-promotion {
-  position: absolute;
-  bottom: 20px;
-  left: 8px;
-  width: 320px;
-  color: white;
-  font-weight: 600;
-  font-size: 45px;
-  text-shadow: 4px 6px 5px black;
-  text-align: center;
+  font-size: 30px;
 }
 
 .sponsor {
