@@ -8,7 +8,9 @@
 .premium {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  max-width: 55%;
+  border-radius: 20px;
+  flex: 1;
 }
 
 .item,
@@ -27,6 +29,7 @@
   color: rgb(185, 185, 185);
   width: 85%;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .page {
@@ -85,9 +88,9 @@
   left: 8px;
   top: 70px;
   color: rgb(243, 238, 238);
-  width: 320px;
+  max-width: 320px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   text-shadow: 4px 6px 5px black;
 }
 
@@ -134,11 +137,11 @@
 .razorpay,
 .webflow,
 .zoom {
-  width: 50px;
+  max-width: 50px;
 }
 
 .pipedrive {
-  width: 150px;
+  max-width: 150px;
 }
 
 .new-arrival-title,
@@ -172,7 +175,7 @@
 
 .arrival-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 15px 10px 1px 10px;
   gap: 20px;
   border-radius: 20px;
@@ -205,8 +208,8 @@
 }
 
 .arrival-container img {
-  width: 385px;
-  height: 250px;
+  max-width: 100%;
+  max-height: 250px;
   border-radius: 20px;
 }
 
