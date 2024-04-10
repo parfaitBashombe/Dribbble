@@ -33,7 +33,7 @@ nav {
 }
 
 .nike {
-  width: 20%;
+  max-width: 40px;
 }
 
 .right-section {
@@ -73,6 +73,7 @@ nav {
 .search-bar {
   height: 35px;
   border-radius: 15px;
+  max-width: 300px;
   border: none;
   padding-left: 9px;
   border: none;
@@ -85,7 +86,7 @@ nav {
 
 .right-section button {
   border: none;
-  padding: 15px 20px;
+  padding: 10px 15px;
   background-color: rgb(13, 12, 34);
   color: white;
   border-radius: 28px;

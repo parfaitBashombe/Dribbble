@@ -18,8 +18,12 @@
   flex-direction: column;
 }
 
+.img-review {
+  background-color: red;
+}
+
 .img-review img {
-  width: 10%;
+  max-width: 100%;
   border-radius: 20px;
 }
 

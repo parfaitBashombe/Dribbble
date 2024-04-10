@@ -109,13 +109,14 @@
 @media (min-width: 0px) and (max-width: 727px) {
   /* start of phone styles */
   nav {
-    font-size: 12px;
+    font-size: 8px;
     color: rgb(124, 124, 124);
     padding: 0 20px;
   }
 
   .search-bar {
     height: 25px;
+    max-width: 300px;
   }
 
   .right-section-container {
