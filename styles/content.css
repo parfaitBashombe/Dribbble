@@ -19,11 +19,11 @@
 }
 
 .img-review {
-  font-size: 12px;
+  border-radius: 20px;
 }
 
 .img-review img {
-  max-width: 100%;
+  max-width: 450px;
   border-radius: 20px;
 }
 
@@ -40,6 +40,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bolder;
+  max-width: 650px;
 }
 
 .samples {
