@@ -100,6 +100,186 @@
 
 @media (min-width: 1024px) and (max-width: 1199px) {
   /* start of computer */
+  nav {
+    font-size: 13px;
+    color: rgb(124, 124, 124);
+    padding: 0 20px;
+  }
+
+  .search-bar {
+    height: 25px;
+    max-width: 115px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 12px;
+  }
+
+  .right-section-container {
+    font-size: 12px;
+  }
+
+  .right-section button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .reviews {
+    padding: 20px 4px;
+  }
+
+  .img-review img {
+    width: 320px;
+    height: 40 0px;
+  }
+
+  .ads {
+    font-size: 65px;
+  }
+
+  .samples button {
+    padding: 3px 5px;
+    font-size: 13px;
+  }
+
+  .play {
+    font-size: 14px;
+    width: 165px;
+  }
+
+  .play img {
+    width: 40px;
+  }
+
+  .premium-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 9px;
+  }
+
+  .descript {
+    font-size: 14px;
+  }
+
+  .page-promotion,
+  .descript-promotion {
+    font-size: 23px;
+  }
+
+  .size-container {
+    column-gap: 3px;
+    align-items: center;
+  }
+
+  .size {
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .chart button {
+    border: none;
+    padding: 5px;
+    background-color: rgb(13, 12, 34);
+    color: white;
+    border-radius: 28px;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+
+  .item img,
+  .item-promotion img {
+    flex: 1;
+    height: 300px;
+  }
+
+  .companies {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .logo-sponsor,
+  .spons {
+    font-size: 18px;
+  }
+
+  .spotify,
+  .slack,
+  .razorpay,
+  .webflow,
+  .zoom {
+    max-width: 38px;
+  }
+
+  .pipedrive {
+    max-width: 95px;
+  }
+
+  .arrival-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(214, 214, 214);
+    font-size: 15px;
+  }
+
+  .shoe-style {
+    font-size: 15px;
+  }
+
+  .arrival-grid img {
+    width: 385px;
+    height: 250px;
+  }
+
+  .design-making-container img {
+    max-width: 610px;
+    height: 570px;
+    border-radius: 20px;
+  }
+
+  .design-experience {
+    font-size: 21px;
+  }
+
+  .design-descript {
+    font-size: 19px;
+    max-width: 280px;
+  }
+
+  .design-making-description {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+
+  .design-making-description-2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  }
+
+  .explore button,
+  .design-making button,
+  .blog-title button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .blog-profile img {
+    max-width: 280px;
+    height: 190px;
+  }
+
+  .blog-name {
+    font-size: 21px;
+  }
+
+  .blog-description {
+    font-size: 19px;
+  }
 }
 
 @media (min-width: 728px) and (max-width: 1023px) {
@@ -424,7 +604,7 @@
 
   .design-making-container img {
     max-width: 210px;
-    height: 570px;
+    height: 500px;
     border-radius: 20px;
   }
 
