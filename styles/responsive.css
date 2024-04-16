@@ -116,15 +116,20 @@
 
   .search-bar {
     height: 25px;
-    max-width: 300px;
+    max-width: 75px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 9px;
   }
 
   .right-section-container {
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .right-section button {
-    padding: 8px 13px;
+    padding: 8px;
+    font-size: 9px;
   }
 
   .reviews {
@@ -132,20 +137,31 @@
   }
 
   .img-review img {
-    width: 100%;
+    width: 180px;
+    height: 40 0px;
   }
 
   .ads {
-    font-size: 400%;
+    font-size: 35px;
   }
 
   .samples button {
-    padding: 6px 10px;
+    padding: 3px 5px;
+    font-size: 9px;
+  }
+
+  .play {
+    font-size: 9px;
+    width: 65px;
+  }
+
+  .play img {
+    width: 40px;
   }
 
   .premium-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 8px;
     padding: 9px;
   }
 
@@ -187,15 +203,38 @@
     height: 300px;
   }
 
+  .companies {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .logo-sponsor,
+  .spons {
+    font-size: 9px;
+  }
+
+  .spotify,
+  .slack,
+  .razorpay,
+  .webflow,
+  .zoom {
+    max-width: 20px;
+  }
+
+  .pipedrive {
+    max-width: 70px;
+  }
+
   .arrival-description {
     position: absolute;
     bottom: 10px;
     left: 10px;
     color: rgb(214, 214, 214);
+    font-size: 12px;
   }
 
   .shoe-style {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .arrival-grid img {
@@ -204,17 +243,17 @@
   }
 
   .design-making-container img {
-    width: 390px;
+    max-width: 210px;
     height: 570px;
     border-radius: 20px;
   }
 
   .design-experience {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .design-descript {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .design-making-description {
