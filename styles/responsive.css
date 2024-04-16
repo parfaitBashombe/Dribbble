@@ -104,6 +104,186 @@
 
 @media (min-width: 728px) and (max-width: 1023px) {
   /* start of medium tablet styles */
+  nav {
+    font-size: 11px;
+    color: rgb(124, 124, 124);
+    padding: 0 20px;
+  }
+
+  .search-bar {
+    height: 25px;
+    max-width: 105px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 10px;
+  }
+
+  .right-section-container {
+    font-size: 10px;
+  }
+
+  .right-section button {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .reviews {
+    padding: 20px 4px;
+  }
+
+  .img-review img {
+    width: 290px;
+    height: 40 0px;
+  }
+
+  .ads {
+    font-size: 55px;
+  }
+
+  .samples button {
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+  .play {
+    font-size: 12px;
+    width: 65px;
+  }
+
+  .play img {
+    width: 40px;
+  }
+
+  .premium-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 9px;
+  }
+
+  .descript {
+    font-size: 12px;
+  }
+
+  .page-promotion,
+  .descript-promotion {
+    font-size: 19px;
+  }
+
+  .size-container {
+    column-gap: 3px;
+    align-items: center;
+  }
+
+  .size {
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  .chart button {
+    border: none;
+    padding: 3px 5px;
+    background-color: rgb(13, 12, 34);
+    color: white;
+    border-radius: 28px;
+    white-space: nowrap;
+    font-size: 11px;
+  }
+
+  .item img,
+  .item-promotion img {
+    flex: 1;
+    height: 300px;
+  }
+
+  .companies {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .logo-sponsor,
+  .spons {
+    font-size: 16px;
+  }
+
+  .spotify,
+  .slack,
+  .razorpay,
+  .webflow,
+  .zoom {
+    max-width: 30px;
+  }
+
+  .pipedrive {
+    max-width: 85px;
+  }
+
+  .arrival-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+  }
+
+  .shoe-style {
+    font-size: 12px;
+  }
+
+  .arrival-grid img {
+    width: 385px;
+    height: 250px;
+  }
+
+  .design-making-container img {
+    max-width: 410px;
+    height: 570px;
+    border-radius: 20px;
+  }
+
+  .design-experience {
+    font-size: 17px;
+  }
+
+  .design-descript {
+    font-size: 16px;
+    max-width: 280px;
+  }
+
+  .design-making-description {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+
+  .design-making-description-2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  }
+
+  .explore button,
+  .design-making button,
+  .blog-title button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .blog-profile img {
+    max-width: 230px;
+    height: 190px;
+  }
+
+  .blog-name {
+    font-size: 17px;
+  }
+
+  .blog-description {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 727px) {
@@ -254,6 +434,7 @@
 
   .design-descript {
     font-size: 13px;
+    max-width: 180px;
   }
 
   .design-making-description {
@@ -265,7 +446,7 @@
   .design-making-description-2 {
     position: absolute;
     top: 50px;
-    right: -20px;
+    left: 10px;
   }
 
   .explore button,
@@ -273,5 +454,18 @@
   .blog-title button {
     padding: 10px 20px;
     font-size: 12px;
+  }
+
+  .blog-profile img {
+    max-width: 100px;
+    height: 190px;
+  }
+
+  .blog-name {
+    font-size: 15px;
+  }
+
+  .blog-description {
+    font-size: 13px;
   }
 }
