@@ -25,6 +25,10 @@ nav {
   flex: 1;
 }
 
+.middle-section span:hover {
+  text-decoration: underline;
+}
+
 .left-section {
   display: flex;
   flex-direction: row;
@@ -60,6 +64,7 @@ nav {
   flex: 1;
   background-color: rgb(226, 224, 224);
   border-radius: 20px;
+  padding: 0 3px;
 }
 
 .search img {

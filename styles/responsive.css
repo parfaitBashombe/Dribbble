@@ -3,9 +3,10 @@
 @media (min-width: 1200px) {
   /* start of large computer */
   nav {
-    font-size: 12px;
+    font-size: 15px;
     color: rgb(124, 124, 124);
     padding: 0 20px;
+    background-color: red;
   }
 
   .search-bar {
@@ -13,7 +14,7 @@
   }
 
   .right-section-container {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .right-section button {
@@ -29,7 +30,7 @@
   }
 
   .ads {
-    font-size: 400%;
+    font-size: 500%;
   }
 
   .samples button {
@@ -60,14 +61,15 @@
   }
 
   .arrival-grid img {
-    width: 385px;
+    width: 100%;
     height: 250px;
   }
 
   .design-making-container img {
-    width: 390px;
-    height: 570px;
+    width: 90%;
+    height: 450px;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .design-experience {
@@ -230,22 +232,24 @@
   }
 
   .arrival-grid img {
-    width: 385px;
-    height: 250px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
   }
 
   .design-making-container img {
-    max-width: 610px;
-    height: 570px;
+    width: 50%;
+    height: 450px;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .design-experience {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .design-descript {
-    font-size: 19px;
+    font-size: 17px;
     max-width: 280px;
   }
 
@@ -336,7 +340,7 @@
   }
 
   .premium-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 9px;
   }
@@ -360,17 +364,17 @@
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     padding: 2px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .chart button {
     border: none;
-    padding: 3px;
+    padding: 5px;
     background-color: rgb(13, 12, 34);
     color: white;
     border-radius: 28px;
     white-space: nowrap;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .item img,
@@ -423,6 +427,16 @@
     width: 100%;
     height: 150px;
     object-fit: cover;
+  }
+
+  .img-payment {
+    width: 60%;
+    height: 100px;
+  }
+
+  .delivery,
+  .delivery-description {
+    font-size: 14px;
   }
 
   .design-making-container img {
