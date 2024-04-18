@@ -489,7 +489,15 @@
 
   .search-bar {
     height: 25px;
-    max-width: 75px;
+    max-width: 55px;
+  }
+
+  .search img {
+    width: 20%;
+  }
+
+  .search {
+    padding: 0 5px;
   }
 
   .search-bar::placeholder {
@@ -533,7 +541,7 @@
   }
 
   .premium-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
     padding: 9px;
   }
@@ -622,6 +630,16 @@
     object-fit: fill;
   }
 
+  .img-payment {
+    width: 60%;
+    height: 60px;
+  }
+
+  .delivery,
+  .delivery-description {
+    font-size: 12px;
+  }
+
   .design-making-container img {
     max-width: 100%;
     height: 90%;
@@ -669,10 +687,10 @@
   }
 
   .blog-name {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .blog-description {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
